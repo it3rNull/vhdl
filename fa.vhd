@@ -11,7 +11,7 @@ architecture arch_fa of fa is
 begin
     temp_b <= b xor cin;
     s<= a xor temp_b;
-    cout <= temp_b and a;
+    cout <= (temp_b and a) or (b and cin);
 
 end architecture arch_fa;
 
