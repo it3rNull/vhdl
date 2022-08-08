@@ -14,5 +14,4 @@ begin
     cout <= temp_b and a;
 
 end architecture arch_fa;
-        t
 
