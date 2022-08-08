@@ -1,6 +1,6 @@
 library ieee;
 use ieee.std_logic_1164.all;
-use work.entity.all;
+use work.all;
 
 entity fa_tb is
     end entity fa_tb;
