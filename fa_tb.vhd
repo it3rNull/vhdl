@@ -37,6 +37,6 @@ begin
         wait for 40 ns;
         cin_s <= '1';
         wait for 40 ns;
-    end proces;
+    end process;
     
 end architecture arch_fa_tb;
