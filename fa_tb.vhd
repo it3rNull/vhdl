@@ -6,7 +6,7 @@ entity fa_tb is
     end entity fa_tb;
 
 architecture arch_fa_tb of fa_tb is
-    signal : a_s,b_s,cin_s,s_s,cout_s : std_logic;
+    signal a_s,b_s,cin_s,s_s,cout_s : std_logic;
 
 component fa is
     port(a,b,cin:in std_logic;
